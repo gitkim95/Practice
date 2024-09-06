@@ -2,9 +2,10 @@
 
 int	main()
 {
-	char	*a;
+	char	a[51];
 
 	scanf("%s", a);
-	printf("%s??!", a);
+	printf("%s", a);
+	printf("\?\?!");
 	return (0);
 }

@@ -6,6 +6,6 @@ int     main()
         double     b;
 
         scanf("%lf %lf", &a, &b);
-        printf("%.16f", a / b);
+        printf("%.16lf", a / b);
         return (0);
 }
